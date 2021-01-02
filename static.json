@@ -9,7 +9,6 @@
       "Access-Control-Allow-Origin": "*"
     },
     "/fetch/": {
-      "Content-Type": "text/plain",
       "Access-Control-Allow-Origin": "*"
     }
   }
