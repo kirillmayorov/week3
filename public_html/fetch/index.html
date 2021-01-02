@@ -15,7 +15,8 @@
     const button = document.querySelector("button");
 
     button.addEventListener("click", () => {
-      let val = document.querySelector("input").value;
+      const input = document.querySelector("input")
+      let val = input.value;
 
       fetch(val).then((response) => {
         input.id = response.text();
