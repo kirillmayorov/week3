@@ -16,7 +16,9 @@
     button.addEventListener('click', () => {
       let val = input.value; 
 
-      
+      fetch(val).then(response => {
+        input.id = response.text();
+      })
     });
   </script>
 </body>
