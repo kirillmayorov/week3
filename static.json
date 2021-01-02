@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "/*": {
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Access-Control-Allow-Origin": "*"
+    },
+    "/promise/": {
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Access-Control-Allow-Origin": "*"
+    },
+    "/fetch/": {
+      "Content-Type": "text/plain",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+} 

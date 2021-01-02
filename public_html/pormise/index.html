@@ -1,0 +1,8 @@
+function task(x) {
+  return fetch(x > 18).then(response => {
+    return "yes"
+  },
+  error => {
+    return "no"
+  })
+}
